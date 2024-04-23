@@ -1,0 +1,46 @@
+.formulario {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os rótulos */
+.formulario label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para os campos de entrada */
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura */
+}
+
+/* Estilo para o botão */
+.formulario button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Verde */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para o botão no hover */
+.formulario button:hover {
+    background-color: #45a049; /* Verde escuro */
+}
+
+/* Estilo para a caixa de seleção */
+.formulario .form-check-input[type="checkbox"] {
+    margin-right: 5px;
+}
